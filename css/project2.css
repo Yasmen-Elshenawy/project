@@ -14,18 +14,24 @@ button{
     float: left ;
     background-color: aliceblue;   
 }
-/* style of buttons when the mouse toutch it*/
- button:hover{
-    background-color:darkgray ;
-     color: aliceblue ;
-     
 
-}
 /* style of style of sections*/
 .tabcontent{
     height: 85 % ;
     text-align: left;
     padding-top: 105px;box-sizing: border-box;
     color: dimgray ;
+
+}
+/*style of buttons when click on */
+button:hover{
+    background-color: deepskyblue ;
+    color: aliceblue ;
+}
+/* style of buttons when the mouse toutch it*/
+ button:active{
+    background-color:darkgray ;
+     color: aliceblue ;
+     
 
 }
