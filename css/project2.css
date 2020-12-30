@@ -24,12 +24,12 @@ button{
 
 }
 /*style of buttons when click on */
-button:hover{
-    background-color: deepskyblue ;
+button:focus{
+    background-color:deepskyblue ;
     color: aliceblue ;
 }
 /* style of buttons when the mouse toutch it*/
- button:active{
+ button:hover{
     background-color:darkgray ;
      color: aliceblue ;
      
